@@ -1,0 +1,183 @@
+1.34 Android // 3.30 IOS 5 Aug 2023
+- Add Trip Name to Dashboard
+
+1.35 Android // 3.31 IOS 8 Aug 2023
+- Fix notes: delete function was not working
+
+1.36 Android // 3.32 IOS 15 Aug 2023
+- Add departure comment
+- Remove duplicated screen (flight screen)
+- Update label (Travel Photo)
+
+1.37 Android // 3.33 IOS 22 Aug 2023
+- Add album feature
+-Update android version: target sdk version 33
+
+1.38 Android // 3.34 IOS 1 Sep 2023
+- Redirect to login after sign Up
+- Add country code selector
+- Update labels (room type)
+- Move room type link to Name
+- Format dates by locale
+- Itinerary photo - do not send by email
+- TC infor more accesible to Clients
+- Chat Go back fixed
+
+1.39 Android // 3.35 IOS 6 Sep 2023
+- Improve UX for Navigation Flow
+-- Add menu profile (links to Edit profile, settings, more screen, logout)
+-- Remove more screen from tab navigator
+-- update UI of bottom navigation buttons
+-- Add guide info to Dashboard
+-- Fix dates without format
+
+1.40 Android // 3.36 IOS 8 Sep 2023
+- Move flight screen for Clients
+- Update help label icons
+- Update titles wording
+- Fix tab navigator spacing
+
+1.41 Android // 3.37 IOS 12 Sep 2023
+- Update departure screen
+
+1.43 Android // 3.38 IOS 14 Sep 2023
+- Remove actions from Itinerary images
+- Update label text on departure update
+
+1.44 Android // 3.39 IOS 15 Sep 2023
+- Remove actions from Itinerary images
+- Update label text on departure update
+
+1.45 Android // 3.40 IOS 18 Sep 2023
+- Update tab navigator wording
+- Update next button from login
+
+1.46 Android // 3.41 IOS 18 Sep 2023
+- Add airline code and PNR to flights
+
+1.47 Android // 3.42 IOS 29 Sep 2023
+- Remove accommodation type
+
+1.48 Android // 3.43 IOS 10 Oct 2023
+- Add EULA and Privacy Policy links on signup screen
+
+1.49 Android // 3.44 IOS 13 Oct 2023
+- Add SDK to measure performance
+
+1.50 Android // 3.45 IOS 16 Oct 2023
+- Show addons on client details screen
+
+1.51 Android // 3.46 IOS 24 Oct 2023
+- Fix bug to upload album
+
+1.52 Android // 3.47 IOS 27 Oct 2023
+- Show invitation code to TCs
+- Chat UI improvements 
+
+1.53 Android // 3.48 IOS 1 Nov 2023
+- Fix bugs minor improvements
+- Add SQLite for offline mode
+
+1.54 Android // 3.49 IOS 14 Nov 2023
+- Fix Flights (In case the pax have several flights, it will now crash)
+
+1.55 Android // 3.50 IOS 24 Nov 2023
+- Close chat connection when not used
+- Add day description for TCs
+- Add location travel report photo
+
+1.57 Android // 3.51 IOS 11 Dec 2023
+- Delete album photos feature (1.56) 
+- Fix color photo text on android  (1.57)
+
+1.58 Android // 3.52 IOS 02 Jan 2024
+- Remove travel repots for Clients
+
+1.59 Android // 3.53 IOS 04 Jan 2024
+- Fix dates to ISO format (pax birthdays)
+- Add version checker
+
+1.60 Android // 3.54 IOS 10 Jan 2024
+- Add addonds internal note to extras tab (TC)
+
+1.61 Android // 3.55 IOS 19 Jan 2024
+- Format upload travel report date to ISO
+
+1.62 Android // 3.56 IOS 22 Jan 2024
+- Format upload travel report date to ISO
+
+1.63 Android // 3.57 IOS 24 Jan 2024
+- Display start time for services
+
+1.64 Android // 3.58 IOS 29 Jan 2024
+- Remove ISO date format to services end date
+
+1.65 Android // 3.59 IOS 2 Feb 2024
+- Travel report fix bug on dates
+
+1.66 Android // 3.60 IOS 14 Feb 2024
+- Improve Extras screen
+-- Add addon Name
+-- Add end date
+-- Group up services by provider and date
+-- Sort extras by date 
+
+1.67 Android // 3.61 IOS 20 Feb 2024
+- Add internal TC comment from departure admin
+
+1.68 Android // 3.62 IOS 27 Feb 2024
+- Add start date to services on day detail
+
+1.69 Android // 3.63 IOS Mar 1 2024
+- Logout when change departure
+- Only allow numbers on departure change
+
+1.70 Android // 3.65 IOS Mar 6 2024
+- Album percentage indicator
+
+1.71 Android // 3.66 IOS Apr 2 2024
+- Add Offline mode
+
+1.72 Android // 3.67 IOS Apr 5 2024
+- Remove offline mode
+
+1.73 Android // 3.68 IOS Apr 8 2024
+- Remove button from profile menu
+- Add Offline mode
+
+1.75 Android // 3.69 IOS Apr 10 2024
+- Fix minor bugs
+-- Photo detail
+-- Photo Pax render
+-- DE Formater
+-- DE Home translation
+
+1.76 Android // 3.70 IOS Apr 29 2024
+- Fix bug with flights
+
+1.77 Android // 3.71 IOS May 2 2024
+- add Recommended restaurants to Itinerary
+
+1.78 Android // 3.72 IOS May 20 2024
+- Add Update Clients Profile Images section
+
+1.79 Android // 3.73 IOS May 21 2024
+- Fix minor bugs (Navigation and UI)
+
+1.80 Android // 3.74 IOS May 24 2024
+- Show phone and cellphone labels to providers
+
+1.81 Android // 3.75 IOS May 28 2024
+- allow to switch to offline mode manually
+
+1.82 Android // 3.76 IOS May 31 2024
+- Let TCs know, if they do not have enough space for offline mode
+
+1.83 Android // 3.77 IOS Jun 14 2024
+- Add Vsocial section
+
+1.84 Android // 3.78 IOS Jun 17 2024
+- Update title and date for photo details logic
+
+1.85 Android // 3.79 IOS Jun 17 2024
+- Update Translations for V Social Project

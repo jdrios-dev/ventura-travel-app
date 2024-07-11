@@ -1,0 +1,7 @@
+ENV=prd
+BASE_URL=https:/$()/travel-report-api.venturatravel.org/
+BASE_URL_WEB_SOCKET=wss:/$()/travel-report-ws.venturatravel.org/message
+PHRASE_PROJECT_ID=d14857ed16c0d9d36f4fee3b63c8bb30
+PHRASE_API_KEY=18bc2a2ff00c1bbf9823982bab4f8dcb55166f37d292f41a2bc849d137b70770
+WRITE_KEY_RUDDERSTACK=2Vtvl3OkuuQg882yixYlNIf0CLV
+DATA_PLANE_URL_RUDDERSTACK=https:/$()/venturatralzvi.dataplane.rudderstack.com

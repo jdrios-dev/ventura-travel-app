@@ -1,0 +1,1346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B03F0DDCFB4243A2A92B26 /* Pods_VenturaTravel_VenturaTravelQa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B828E85AB0EC00804184114 /* Pods_VenturaTravel_VenturaTravelQa.framework */; };
+		1206873C9DCE4DF4BEEA35EB /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE5875255BD6429C8E332955 /* Nunito-Light.ttf */; };
+		12BB3EA1B457402D99881E08 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA75D6C56B0B47B89E1BBFBD /* Nunito-Bold.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		148BD311E8F246008A1F1B86 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEF05784D5C9400696018A82 /* Nunito-Italic.ttf */; };
+		15FDA49C766D499398AE52B2 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 968DC5103760444B8627091A /* Nunito-SemiBold.ttf */; };
+		204E7B9C8F044EA3AF2C1352 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798A12FF234446A6BD26C34D /* Nunito-Medium.ttf */; };
+		22F083C940294384A58E388C /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49BBBD728E4B4CAD8F2816BB /* Nunito-ExtraBold.ttf */; };
+		234FA7C92AD73C1B00F4CEFC /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 234FA7C82AD73C1B00F4CEFC /* FirebasePerformance */; };
+		23705C432B6198B3004887E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D5C97029AE24BB0010B4EC /* GoogleService-Info.plist */; };
+		23D5C96F29AE24A80010B4EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D5C96E29AE24A80010B4EC /* GoogleService-Info.plist */; };
+		23D9D80229B90253007A9593 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		23D9D80329B90253007A9593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		23D9D80529B90253007A9593 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 23D9D7FD29B90253007A9593 /* FirebaseAnalytics */; };
+		23D9D80929B90253007A9593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		23D9D80A29B90253007A9593 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		23D9D80B29B90253007A9593 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA75D6C56B0B47B89E1BBFBD /* Nunito-Bold.ttf */; };
+		23D9D80C29B90253007A9593 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49BBBD728E4B4CAD8F2816BB /* Nunito-ExtraBold.ttf */; };
+		23D9D80D29B90253007A9593 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17A04C46D99B4814B0A27BFD /* Nunito-ExtraLight.ttf */; };
+		23D9D80E29B90253007A9593 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEF05784D5C9400696018A82 /* Nunito-Italic.ttf */; };
+		23D9D80F29B90253007A9593 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE5875255BD6429C8E332955 /* Nunito-Light.ttf */; };
+		23D9D81029B90253007A9593 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798A12FF234446A6BD26C34D /* Nunito-Medium.ttf */; };
+		23D9D81229B90253007A9593 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4702FAD6542D4FB9BACCDBBC /* Nunito-Regular.ttf */; };
+		23D9D81329B90253007A9593 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 968DC5103760444B8627091A /* Nunito-SemiBold.ttf */; };
+		23D9D83B29B91B1E007A9593 /* VenturaTravel dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D9D81A29B90253007A9593 /* VenturaTravel dev-Info.plist */; };
+		23D9D83D29B924EB007A9593 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D5C97229AE24D50010B4EC /* GoogleService-Info.plist */; };
+		23D9D84429B9285B007A9593 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		23D9D84529B9285B007A9593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		23D9D84729B9285B007A9593 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 23D9D83F29B9285B007A9593 /* FirebaseAnalytics */; };
+		23D9D84A29B9285B007A9593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		23D9D84B29B9285B007A9593 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		23D9D84C29B9285B007A9593 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA75D6C56B0B47B89E1BBFBD /* Nunito-Bold.ttf */; };
+		23D9D84D29B9285B007A9593 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49BBBD728E4B4CAD8F2816BB /* Nunito-ExtraBold.ttf */; };
+		23D9D84E29B9285B007A9593 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17A04C46D99B4814B0A27BFD /* Nunito-ExtraLight.ttf */; };
+		23D9D84F29B9285B007A9593 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEF05784D5C9400696018A82 /* Nunito-Italic.ttf */; };
+		23D9D85029B9285B007A9593 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE5875255BD6429C8E332955 /* Nunito-Light.ttf */; };
+		23D9D85129B9285B007A9593 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798A12FF234446A6BD26C34D /* Nunito-Medium.ttf */; };
+		23D9D85329B9285B007A9593 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4702FAD6542D4FB9BACCDBBC /* Nunito-Regular.ttf */; };
+		23D9D85429B9285B007A9593 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 968DC5103760444B8627091A /* Nunito-SemiBold.ttf */; };
+		23D9D86229B92A00007A9593 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		23D9D86329B92A00007A9593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		23D9D86529B92A00007A9593 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 23D9D85D29B92A00007A9593 /* FirebaseAnalytics */; };
+		23D9D86629B92A00007A9593 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		23D9D86829B92A00007A9593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		23D9D86929B92A00007A9593 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		23D9D86A29B92A00007A9593 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA75D6C56B0B47B89E1BBFBD /* Nunito-Bold.ttf */; };
+		23D9D86B29B92A00007A9593 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49BBBD728E4B4CAD8F2816BB /* Nunito-ExtraBold.ttf */; };
+		23D9D86C29B92A00007A9593 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17A04C46D99B4814B0A27BFD /* Nunito-ExtraLight.ttf */; };
+		23D9D86D29B92A00007A9593 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEF05784D5C9400696018A82 /* Nunito-Italic.ttf */; };
+		23D9D86E29B92A00007A9593 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE5875255BD6429C8E332955 /* Nunito-Light.ttf */; };
+		23D9D86F29B92A00007A9593 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798A12FF234446A6BD26C34D /* Nunito-Medium.ttf */; };
+		23D9D87129B92A00007A9593 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4702FAD6542D4FB9BACCDBBC /* Nunito-Regular.ttf */; };
+		23D9D87229B92A00007A9593 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 968DC5103760444B8627091A /* Nunito-SemiBold.ttf */; };
+		23D9D87A29B92A19007A9593 /* VenturaTravel stg-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D9D87929B92A00007A9593 /* VenturaTravel stg-Info.plist */; };
+		23E29FE329A906420019041F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 23E29FE229A906420019041F /* FirebaseAnalytics */; };
+		292890BE81F13208E37A86F7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		2BBFBF42C676457A82165737 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4702FAD6542D4FB9BACCDBBC /* Nunito-Regular.ttf */; };
+		79EB268714E1E36504010B6F /* Pods_VenturaTravel_VenturaTravelDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B135E9E01BD77DE917DAB50 /* Pods_VenturaTravel_VenturaTravelDev.framework */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9867B5BBF391B53AADC0CDBD /* Pods_VenturaTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBB15696F2A729D78470250 /* Pods_VenturaTravel.framework */; };
+		C8B2001FA91A48CB9C9A6CF5 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17A04C46D99B4814B0A27BFD /* Nunito-ExtraLight.ttf */; };
+		F8E5D6DEB69D3ED2B8469C52 /* Pods_VenturaTravel_VenturaTravelStg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9C6656CE1C3B18C84B80F4 /* Pods_VenturaTravel_VenturaTravelStg.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* VenturaTravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenturaTravelTests.m; sourceTree = "<group>"; };
+		0A6273D173EEE04385E05AE3 /* Pods-VenturaTravel-VenturaTravelDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenturaTravel-VenturaTravelDev.debug.xcconfig"; path = "Target Support Files/Pods-VenturaTravel-VenturaTravelDev/Pods-VenturaTravel-VenturaTravelDev.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* VenturaTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenturaTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VenturaTravel/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = VenturaTravel/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VenturaTravel/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VenturaTravel/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VenturaTravel/main.m; sourceTree = "<group>"; };
+		17A04C46D99B4814B0A27BFD /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraLight.ttf"; path = "../src/assets/fonts/Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2308868829CBA204003D2DD6 /* VenturaTravel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = VenturaTravel.entitlements; path = VenturaTravel/VenturaTravel.entitlements; sourceTree = "<group>"; };
+		23D5C96E29AE24A80010B4EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GoogleService/prd/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		23D5C97029AE24BB0010B4EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GoogleService/stg/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		23D5C97229AE24D50010B4EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GoogleService/dev/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		23D9D81929B90253007A9593 /* VenturaTravelDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenturaTravelDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D9D81A29B90253007A9593 /* VenturaTravel dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenturaTravel dev-Info.plist"; sourceTree = SOURCE_ROOT; };
+		23D9D85A29B9285B007A9593 /* VenturaTravelQa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenturaTravelQa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D9D85B29B9285B007A9593 /* VenturaTravel qa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VenturaTravel qa-Info.plist"; path = "/Users/macmini250/Desktop/backup/dev/work/ventura-travel-app/ios/VenturaTravel qa-Info.plist"; sourceTree = "<absolute>"; };
+		23D9D87829B92A00007A9593 /* VenturaTravelStg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenturaTravelStg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D9D87929B92A00007A9593 /* VenturaTravel stg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenturaTravel stg-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2AA9364CC5926B773D859B3D /* Pods-VenturaTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenturaTravel.debug.xcconfig"; path = "Target Support Files/Pods-VenturaTravel/Pods-VenturaTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		4702FAD6542D4FB9BACCDBBC /* Nunito-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Regular.ttf"; path = "../src/assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		49BBBD728E4B4CAD8F2816BB /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraBold.ttf"; path = "../src/assets/fonts/Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		615186218E02D774E38B1675 /* Pods-VenturaTravel-VenturaTravelDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenturaTravel-VenturaTravelDev.release.xcconfig"; path = "Target Support Files/Pods-VenturaTravel-VenturaTravelDev/Pods-VenturaTravel-VenturaTravelDev.release.xcconfig"; sourceTree = "<group>"; };
+		6BBB15696F2A729D78470250 /* Pods_VenturaTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VenturaTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A6E781114C75FC5C51EACF /* Pods-VenturaTravel-VenturaTravelQa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenturaTravel-VenturaTravelQa.release.xcconfig"; path = "Target Support Files/Pods-VenturaTravel-VenturaTravelQa/Pods-VenturaTravel-VenturaTravelQa.release.xcconfig"; sourceTree = "<group>"; };
+		798A12FF234446A6BD26C34D /* Nunito-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Medium.ttf"; path = "../src/assets/fonts/Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		7B135E9E01BD77DE917DAB50 /* Pods_VenturaTravel_VenturaTravelDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VenturaTravel_VenturaTravelDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B828E85AB0EC00804184114 /* Pods_VenturaTravel_VenturaTravelQa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VenturaTravel_VenturaTravelQa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VenturaTravel/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		968DC5103760444B8627091A /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBold.ttf"; path = "../src/assets/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		A9F49425CE0D1D571185ACDF /* Pods-VenturaTravel-VenturaTravelStg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenturaTravel-VenturaTravelStg.debug.xcconfig"; path = "Target Support Files/Pods-VenturaTravel-VenturaTravelStg/Pods-VenturaTravel-VenturaTravelStg.debug.xcconfig"; sourceTree = "<group>"; };
+		C4D8CFAD2744A99717A328A2 /* Pods-VenturaTravel-VenturaTravelQa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenturaTravel-VenturaTravelQa.debug.xcconfig"; path = "Target Support Files/Pods-VenturaTravel-VenturaTravelQa/Pods-VenturaTravel-VenturaTravelQa.debug.xcconfig"; sourceTree = "<group>"; };
+		CA75D6C56B0B47B89E1BBFBD /* Nunito-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Bold.ttf"; path = "../src/assets/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		D497BA177C5021E692D9BD89 /* Pods-VenturaTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenturaTravel.release.xcconfig"; path = "Target Support Files/Pods-VenturaTravel/Pods-VenturaTravel.release.xcconfig"; sourceTree = "<group>"; };
+		DE5875255BD6429C8E332955 /* Nunito-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Light.ttf"; path = "../src/assets/fonts/Nunito-Light.ttf"; sourceTree = "<group>"; };
+		E585F4E43B2A141379C23555 /* Pods-VenturaTravel-VenturaTravelStg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenturaTravel-VenturaTravelStg.release.xcconfig"; path = "Target Support Files/Pods-VenturaTravel-VenturaTravelStg/Pods-VenturaTravel-VenturaTravelStg.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EEF05784D5C9400696018A82 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Italic.ttf"; path = "../src/assets/fonts/Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		FA9C6656CE1C3B18C84B80F4 /* Pods_VenturaTravel_VenturaTravelStg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VenturaTravel_VenturaTravelStg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E29FE329A906420019041F /* FirebaseAnalytics in Frameworks */,
+				292890BE81F13208E37A86F7 /* BuildFile in Frameworks */,
+				234FA7C92AD73C1B00F4CEFC /* FirebasePerformance in Frameworks */,
+				9867B5BBF391B53AADC0CDBD /* Pods_VenturaTravel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9D80429B90253007A9593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9D80529B90253007A9593 /* FirebaseAnalytics in Frameworks */,
+				79EB268714E1E36504010B6F /* Pods_VenturaTravel_VenturaTravelDev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9D84629B9285B007A9593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9D84729B9285B007A9593 /* FirebaseAnalytics in Frameworks */,
+				09B03F0DDCFB4243A2A92B26 /* Pods_VenturaTravel_VenturaTravelQa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9D86429B92A00007A9593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9D86529B92A00007A9593 /* FirebaseAnalytics in Frameworks */,
+				23D9D86629B92A00007A9593 /* BuildFile in Frameworks */,
+				F8E5D6DEB69D3ED2B8469C52 /* Pods_VenturaTravel_VenturaTravelStg.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* VenturaTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* VenturaTravelTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = VenturaTravelTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* VenturaTravel */ = {
+			isa = PBXGroup;
+			children = (
+				2308868829CBA204003D2DD6 /* VenturaTravel.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = VenturaTravel;
+			sourceTree = "<group>";
+		};
+		23AEC52429AD516400963445 /* GoogleService */ = {
+			isa = PBXGroup;
+			children = (
+				23AEC52829AD518800963445 /* stg */,
+				23AEC52629AD517500963445 /* dev */,
+				23AEC52529AD517000963445 /* prd */,
+			);
+			path = GoogleService;
+			sourceTree = "<group>";
+		};
+		23AEC52529AD517000963445 /* prd */ = {
+			isa = PBXGroup;
+			children = (
+				23D5C96E29AE24A80010B4EC /* GoogleService-Info.plist */,
+			);
+			path = prd;
+			sourceTree = "<group>";
+		};
+		23AEC52629AD517500963445 /* dev */ = {
+			isa = PBXGroup;
+			children = (
+				23D5C97229AE24D50010B4EC /* GoogleService-Info.plist */,
+			);
+			path = dev;
+			sourceTree = "<group>";
+		};
+		23AEC52829AD518800963445 /* stg */ = {
+			isa = PBXGroup;
+			children = (
+				23D5C97029AE24BB0010B4EC /* GoogleService-Info.plist */,
+			);
+			path = stg;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				6BBB15696F2A729D78470250 /* Pods_VenturaTravel.framework */,
+				7B135E9E01BD77DE917DAB50 /* Pods_VenturaTravel_VenturaTravelDev.framework */,
+				7B828E85AB0EC00804184114 /* Pods_VenturaTravel_VenturaTravelQa.framework */,
+				FA9C6656CE1C3B18C84B80F4 /* Pods_VenturaTravel_VenturaTravelStg.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				23AEC52429AD516400963445 /* GoogleService */,
+				13B07FAE1A68108700A75B9A /* VenturaTravel */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* VenturaTravelTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D3357F6C7C704EBFB3B005C1 /* Resources */,
+				23D9D81A29B90253007A9593 /* VenturaTravel dev-Info.plist */,
+				23D9D85B29B9285B007A9593 /* VenturaTravel qa-Info.plist */,
+				23D9D87929B92A00007A9593 /* VenturaTravel stg-Info.plist */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* VenturaTravel.app */,
+				23D9D81929B90253007A9593 /* VenturaTravelDev.app */,
+				23D9D85A29B9285B007A9593 /* VenturaTravelQa.app */,
+				23D9D87829B92A00007A9593 /* VenturaTravelStg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9364CC5926B773D859B3D /* Pods-VenturaTravel.debug.xcconfig */,
+				D497BA177C5021E692D9BD89 /* Pods-VenturaTravel.release.xcconfig */,
+				0A6273D173EEE04385E05AE3 /* Pods-VenturaTravel-VenturaTravelDev.debug.xcconfig */,
+				615186218E02D774E38B1675 /* Pods-VenturaTravel-VenturaTravelDev.release.xcconfig */,
+				C4D8CFAD2744A99717A328A2 /* Pods-VenturaTravel-VenturaTravelQa.debug.xcconfig */,
+				78A6E781114C75FC5C51EACF /* Pods-VenturaTravel-VenturaTravelQa.release.xcconfig */,
+				A9F49425CE0D1D571185ACDF /* Pods-VenturaTravel-VenturaTravelStg.debug.xcconfig */,
+				E585F4E43B2A141379C23555 /* Pods-VenturaTravel-VenturaTravelStg.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3357F6C7C704EBFB3B005C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA75D6C56B0B47B89E1BBFBD /* Nunito-Bold.ttf */,
+				49BBBD728E4B4CAD8F2816BB /* Nunito-ExtraBold.ttf */,
+				17A04C46D99B4814B0A27BFD /* Nunito-ExtraLight.ttf */,
+				EEF05784D5C9400696018A82 /* Nunito-Italic.ttf */,
+				DE5875255BD6429C8E332955 /* Nunito-Light.ttf */,
+				798A12FF234446A6BD26C34D /* Nunito-Medium.ttf */,
+				4702FAD6542D4FB9BACCDBBC /* Nunito-Regular.ttf */,
+				968DC5103760444B8627091A /* Nunito-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* VenturaTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VenturaTravel" */;
+			buildPhases = (
+				D2007078C5538A964AF8DA1E /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				431E52BBF5FEDA411E4D321F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenturaTravel;
+			packageProductDependencies = (
+				23E29FE229A906420019041F /* FirebaseAnalytics */,
+				234FA7C82AD73C1B00F4CEFC /* FirebasePerformance */,
+			);
+			productName = VenturaTravel;
+			productReference = 13B07F961A680F5B00A75B9A /* VenturaTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23D9D7FC29B90253007A9593 /* VenturaTravelDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D9D81629B90253007A9593 /* Build configuration list for PBXNativeTarget "VenturaTravelDev" */;
+			buildPhases = (
+				8B7D26738E4A42EBF87A162B /* [CP] Check Pods Manifest.lock */,
+				23D9D80029B90253007A9593 /* Start Packager */,
+				23D9D80129B90253007A9593 /* Sources */,
+				23D9D80429B90253007A9593 /* Frameworks */,
+				23D9D80829B90253007A9593 /* Resources */,
+				23D9D81429B90253007A9593 /* Bundle React Native code and images */,
+				1B2A4DD3B7EBC43B2DD1C524 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenturaTravelDev;
+			packageProductDependencies = (
+				23D9D7FD29B90253007A9593 /* FirebaseAnalytics */,
+			);
+			productName = VenturaTravel;
+			productReference = 23D9D81929B90253007A9593 /* VenturaTravelDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23D9D83E29B9285B007A9593 /* VenturaTravelQa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D9D85729B9285B007A9593 /* Build configuration list for PBXNativeTarget "VenturaTravelQa" */;
+			buildPhases = (
+				5C243E37DC473CC3C6EA2A61 /* [CP] Check Pods Manifest.lock */,
+				23D9D84229B9285B007A9593 /* Start Packager */,
+				23D9D84329B9285B007A9593 /* Sources */,
+				23D9D84629B9285B007A9593 /* Frameworks */,
+				23D9D84929B9285B007A9593 /* Resources */,
+				23D9D85529B9285B007A9593 /* Bundle React Native code and images */,
+				A2D55A5579C8F5DA6A7D8765 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenturaTravelQa;
+			packageProductDependencies = (
+				23D9D83F29B9285B007A9593 /* FirebaseAnalytics */,
+			);
+			productName = VenturaTravel;
+			productReference = 23D9D85A29B9285B007A9593 /* VenturaTravelQa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23D9D85C29B92A00007A9593 /* VenturaTravelStg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D9D87529B92A00007A9593 /* Build configuration list for PBXNativeTarget "VenturaTravelStg" */;
+			buildPhases = (
+				2F913903F0F6BF00FBC4FAF9 /* [CP] Check Pods Manifest.lock */,
+				23D9D86029B92A00007A9593 /* Start Packager */,
+				23D9D86129B92A00007A9593 /* Sources */,
+				23D9D86429B92A00007A9593 /* Frameworks */,
+				23D9D86729B92A00007A9593 /* Resources */,
+				23D9D87329B92A00007A9593 /* Bundle React Native code and images */,
+				3CA6EE3D7F2639D31AC4B2A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenturaTravelStg;
+			packageProductDependencies = (
+				23D9D85D29B92A00007A9593 /* FirebaseAnalytics */,
+			);
+			productName = VenturaTravel;
+			productReference = 23D9D87829B92A00007A9593 /* VenturaTravelStg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = NO;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VenturaTravel" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			packageReferences = (
+				23E29FE129A906420019041F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* VenturaTravel */,
+				23D9D7FC29B90253007A9593 /* VenturaTravelDev */,
+				23D9D83E29B9285B007A9593 /* VenturaTravelQa */,
+				23D9D85C29B92A00007A9593 /* VenturaTravelStg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				12BB3EA1B457402D99881E08 /* Nunito-Bold.ttf in Resources */,
+				22F083C940294384A58E388C /* Nunito-ExtraBold.ttf in Resources */,
+				C8B2001FA91A48CB9C9A6CF5 /* Nunito-ExtraLight.ttf in Resources */,
+				148BD311E8F246008A1F1B86 /* Nunito-Italic.ttf in Resources */,
+				1206873C9DCE4DF4BEEA35EB /* Nunito-Light.ttf in Resources */,
+				204E7B9C8F044EA3AF2C1352 /* Nunito-Medium.ttf in Resources */,
+				23D5C96F29AE24A80010B4EC /* GoogleService-Info.plist in Resources */,
+				2BBFBF42C676457A82165737 /* Nunito-Regular.ttf in Resources */,
+				15FDA49C766D499398AE52B2 /* Nunito-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9D80829B90253007A9593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9D83D29B924EB007A9593 /* GoogleService-Info.plist in Resources */,
+				23D9D80929B90253007A9593 /* LaunchScreen.storyboard in Resources */,
+				23D9D80A29B90253007A9593 /* Images.xcassets in Resources */,
+				23D9D80B29B90253007A9593 /* Nunito-Bold.ttf in Resources */,
+				23D9D80C29B90253007A9593 /* Nunito-ExtraBold.ttf in Resources */,
+				23D9D80D29B90253007A9593 /* Nunito-ExtraLight.ttf in Resources */,
+				23D9D83B29B91B1E007A9593 /* VenturaTravel dev-Info.plist in Resources */,
+				23D9D80E29B90253007A9593 /* Nunito-Italic.ttf in Resources */,
+				23D9D80F29B90253007A9593 /* Nunito-Light.ttf in Resources */,
+				23D9D81029B90253007A9593 /* Nunito-Medium.ttf in Resources */,
+				23D9D81229B90253007A9593 /* Nunito-Regular.ttf in Resources */,
+				23D9D81329B90253007A9593 /* Nunito-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9D84929B9285B007A9593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9D84A29B9285B007A9593 /* LaunchScreen.storyboard in Resources */,
+				23D9D84B29B9285B007A9593 /* Images.xcassets in Resources */,
+				23D9D84C29B9285B007A9593 /* Nunito-Bold.ttf in Resources */,
+				23D9D84D29B9285B007A9593 /* Nunito-ExtraBold.ttf in Resources */,
+				23D9D84E29B9285B007A9593 /* Nunito-ExtraLight.ttf in Resources */,
+				23D9D84F29B9285B007A9593 /* Nunito-Italic.ttf in Resources */,
+				23D9D85029B9285B007A9593 /* Nunito-Light.ttf in Resources */,
+				23D9D85129B9285B007A9593 /* Nunito-Medium.ttf in Resources */,
+				23D9D85329B9285B007A9593 /* Nunito-Regular.ttf in Resources */,
+				23D9D85429B9285B007A9593 /* Nunito-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9D86729B92A00007A9593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9D86829B92A00007A9593 /* LaunchScreen.storyboard in Resources */,
+				23D9D86929B92A00007A9593 /* Images.xcassets in Resources */,
+				23D9D86A29B92A00007A9593 /* Nunito-Bold.ttf in Resources */,
+				23D9D86B29B92A00007A9593 /* Nunito-ExtraBold.ttf in Resources */,
+				23D9D87A29B92A19007A9593 /* VenturaTravel stg-Info.plist in Resources */,
+				23705C432B6198B3004887E0 /* GoogleService-Info.plist in Resources */,
+				23D9D86C29B92A00007A9593 /* Nunito-ExtraLight.ttf in Resources */,
+				23D9D86D29B92A00007A9593 /* Nunito-Italic.ttf in Resources */,
+				23D9D86E29B92A00007A9593 /* Nunito-Light.ttf in Resources */,
+				23D9D86F29B92A00007A9593 /* Nunito-Medium.ttf in Resources */,
+				23D9D87129B92A00007A9593 /* Nunito-Regular.ttf in Resources */,
+				23D9D87229B92A00007A9593 /* Nunito-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		1B2A4DD3B7EBC43B2DD1C524 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel-VenturaTravelDev/Pods-VenturaTravel-VenturaTravelDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel-VenturaTravelDev/Pods-VenturaTravel-VenturaTravelDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel-VenturaTravelDev/Pods-VenturaTravel-VenturaTravelDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23D9D80029B90253007A9593 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		23D9D81429B90253007A9593 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		23D9D84229B9285B007A9593 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		23D9D85529B9285B007A9593 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		23D9D86029B92A00007A9593 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		23D9D87329B92A00007A9593 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		2F913903F0F6BF00FBC4FAF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VenturaTravel-VenturaTravelStg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CA6EE3D7F2639D31AC4B2A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel-VenturaTravelStg/Pods-VenturaTravel-VenturaTravelStg-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel-VenturaTravelStg/Pods-VenturaTravel-VenturaTravelStg-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel-VenturaTravelStg/Pods-VenturaTravel-VenturaTravelStg-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		431E52BBF5FEDA411E4D321F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel/Pods-VenturaTravel-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel/Pods-VenturaTravel-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel/Pods-VenturaTravel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C243E37DC473CC3C6EA2A61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VenturaTravel-VenturaTravelQa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B7D26738E4A42EBF87A162B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VenturaTravel-VenturaTravelDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D55A5579C8F5DA6A7D8765 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel-VenturaTravelQa/Pods-VenturaTravel-VenturaTravelQa-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel-VenturaTravelQa/Pods-VenturaTravel-VenturaTravelQa-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VenturaTravel-VenturaTravelQa/Pods-VenturaTravel-VenturaTravelQa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2007078C5538A964AF8DA1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VenturaTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9D80129B90253007A9593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9D80229B90253007A9593 /* AppDelegate.mm in Sources */,
+				23D9D80329B90253007A9593 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9D84329B9285B007A9593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9D84429B9285B007A9593 /* AppDelegate.mm in Sources */,
+				23D9D84529B9285B007A9593 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D9D86129B92A00007A9593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D9D86229B92A00007A9593 /* AppDelegate.mm in Sources */,
+				23D9D86329B92A00007A9593 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA9364CC5926B773D859B3D /* Pods-VenturaTravel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VenturaTravel/VenturaTravel.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = ATYSBYW59L;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = VenturaTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.9;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venturatravel.travelapp;
+				PRODUCT_NAME = VenturaTravel;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D497BA177C5021E692D9BD89 /* Pods-VenturaTravel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VenturaTravel/VenturaTravel.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = ATYSBYW59L;
+				INFOPLIST_FILE = VenturaTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.9;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venturatravel.travelapp;
+				PRODUCT_NAME = VenturaTravel;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		23D9D81729B90253007A9593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6273D173EEE04385E05AE3 /* Pods-VenturaTravel-VenturaTravelDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYSBYW59L;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "VenturaTravel dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venturatravel.travelapp.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		23D9D81829B90253007A9593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615186218E02D774E38B1675 /* Pods-VenturaTravel-VenturaTravelDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYSBYW59L;
+				INFOPLIST_FILE = "VenturaTravel dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venturatravel.travelapp.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		23D9D85829B9285B007A9593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D8CFAD2744A99717A328A2 /* Pods-VenturaTravel-VenturaTravelQa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYSBYW59L;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "VenturaTravel qa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venturatravel.travelapp.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		23D9D85929B9285B007A9593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78A6E781114C75FC5C51EACF /* Pods-VenturaTravel-VenturaTravelQa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYSBYW59L;
+				INFOPLIST_FILE = "VenturaTravel qa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venturatravel.travelapp.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		23D9D87629B92A00007A9593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F49425CE0D1D571185ACDF /* Pods-VenturaTravel-VenturaTravelStg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYSBYW59L;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "VenturaTravel stg-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venturatravel.travelapp.stg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		23D9D87729B92A00007A9593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E585F4E43B2A141379C23555 /* Pods-VenturaTravel-VenturaTravelStg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ATYSBYW59L;
+				INFOPLIST_FILE = "VenturaTravel stg-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.venturatravel.travelapp.stg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VenturaTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D9D81629B90253007A9593 /* Build configuration list for PBXNativeTarget "VenturaTravelDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D9D81729B90253007A9593 /* Debug */,
+				23D9D81829B90253007A9593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D9D85729B9285B007A9593 /* Build configuration list for PBXNativeTarget "VenturaTravelQa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D9D85829B9285B007A9593 /* Debug */,
+				23D9D85929B9285B007A9593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D9D87529B92A00007A9593 /* Build configuration list for PBXNativeTarget "VenturaTravelStg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D9D87629B92A00007A9593 /* Debug */,
+				23D9D87729B92A00007A9593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VenturaTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23D9D7FE29B90253007A9593 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		23D9D84029B9285B007A9593 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		23D9D85E29B92A00007A9593 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		23E29FE129A906420019041F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		234FA7C82AD73C1B00F4CEFC /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebasePerformance;
+		};
+		23D9D7FD29B90253007A9593 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23D9D7FE29B90253007A9593 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		23D9D83F29B9285B007A9593 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23D9D84029B9285B007A9593 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		23D9D85D29B92A00007A9593 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23D9D85E29B92A00007A9593 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		23E29FE229A906420019041F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23E29FE129A906420019041F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
